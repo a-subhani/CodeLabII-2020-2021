@@ -1,123 +1,111 @@
-### Chapter 1
-Exercises with a tick mark ☑️ represent exercises that must be submitted for the Programming Skills Portfolio as a minimum expectation. Completing more exercises provides the opportunity to attain higher marks. For each exercise you should create a new project with the name of the exercise and save it to this exercises folder in your local repository.
+# Chapter 2 - Exercises
 
-Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the deadline will be marked for the Programming Skills Portfolio.
+Exercises with a tick mark :ballot_box_with_check: represent exercises that must be submitted for *Option 1* of the Programming Skills Portfolio as a minimum expectation. Completing more exercises provides the opportunity to attain higher marks. For each exercise you should create a _**new project**_ with the name of the exercise and save it to this exercises folder in your local repository.
+
+Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the chapter deadlines will be marked for the Programming Skills Portfolio.
 
 ---
 &nbsp;
-##Exercise 1: print ☑️ 
 
-Write program to print the following messages
+## Exercise 1 - Input Arrays :ballot_box_with_check:
 
-*Python uses interpreter to convert source code into machine code*
-*Interpreter translates program one statement at a time.*
-&nbsp;
-&nbsp;
-##Exercise 2: Constant variable PI
-Write code to calculate the circumference and area of a circle from the radius. The program should ask the user to enter the desired radius of the circle.
-PI is defined as: ```3.14159 ```
-Area is defined as: ```PI * radius * radius ```
-Circumference is defined as: ```PI * Radius * 2```
-&nbsp;
-&nbsp;
-##Exercise 3 a: User Input Output
-Write code to prompt the user to input her/his name, age and hometown and print these details on the screen. The format of text should look like the sample output below but you can only use a single print when outputting the information.
->Your Name is: Alpha
->Your Age is: 22
->Your Hometown is: Ras Al Khaimah
+Write a program that requests five numbers from the user and adds these into an array. Once the values have been inputted display them to the user is a nicely formatted list.
+
+#### Extension Problem (Optional):
+
+Prevent the user from entering invalid data.
 
 &nbsp;
 &nbsp;
-##Exercise 3 b: User Input Output
-Write code to prompt the user to input her/his name and age and print these details on the screen. Find the length of the name and also the age of the user after one year.
-The format of text should look like the sample output below.
-(Use title() function)
->Hello, user!
->What is your name?
->alpha s
->What is your age?
->22
->It is good to meet you, Alpha S
->The length of your name is:
->5
->You will be 23 in a year.
+
+## Exercise 2 - The Mad Hatter
+
+The Mad Hatter likes to reverse words. Write a program that allows him to print out any given String in reverse. The user should be able to enter the word and the resulting output should say:
+
+```
+The Mad Hatter Says: word in reverse
+```
 
 &nbsp;
-##Exercise 4: Number Input Output
-Write code to prompt the user to input 3 integer values and print these values in forward and reversed order in a similar format to the below.
->enter three numbers
-enter number 1 :10
-enter number 2 :20
-enter number 3 :60
-Your numbers forward:
-10
-20
-60
-Your numbers reversed:
-60
-20
->10
+&nbsp;
+
+## Exercise 3 - Even Higher :ballot_box_with_check:
+
+Find and display the value that is the highest even number in an integer array. For testing the array should use the following values:
+
+```
+15, 2, 6, 11, 12, 13, 9
+```
 
 &nbsp;
-##Exercise 5: Maths
-Write a program that evaluates the following calculations for two int numbers obtained from the user and outputs the results to the console:
+&nbsp;
 
->Sum (+) | Diff (-) | Product (x) | Quotient (/) | Remainder (%)
+## Exercise 4 - Standard Library Array input :ballot_box_with_check:
 
-&nbsp;
-##Exercise 6: Is it Triangle
-Write a program that asks the user to enter the lengths of the three sides of a triangle.
-Use the triangle inequality to determine if we have a triangle: In mathematics, the triangle inequality states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side ([see here](https://en.wikipedia.org/wiki/Triangle_inequality))
-Extension Problem (Optional):
-If valid, as the user for the length of the sides and have the program correctly classify the type of triangle as either: Equilateral, Isosceles or Scalene  ([see here](https://www.mathsisfun.com/triangle.html))
-&nbsp;
-&nbsp;
-##Exercise 7: Is it Even?
-Write a program that allows the user to input a number and checks whether the number is even or not using the Ternary operator.
-&nbsp;
-&nbsp;
-##Exercise 8: Largest Number
-Write a program to input three numbers and outputs the largest using
-- The Ternary operator
-- The multiple if -else operator
-&nbsp;
-&nbsp;
-##Exercise 9: continue
-Write a program that implements a while loop. This program should ask the user if they would like to continue and use the while loop to keep looping as long as they enter the letter Y. Once the while loop has terminated output the number of times it is executed.
-&nbsp;
-&nbsp;
-##Exercise 10: FizzBuzz
-Write a program that prints the numbers from 1 to 100. But for multiples of three print Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
-&nbsp;
-&nbsp;
-##Exercise 11: Even Numbers
-Write a program that prints the even numbers from 1 to 100. 
-Hint - Use Continue Statement
-&nbsp;
-&nbsp;
-##Optional Exercise 12:  Count seconds
-Write a program that calculates the number of seconds in a day.
-Hint: Ask user to enter number of days, Convert days into hours, hours to minutes, minutes to seconds
-&nbsp;
-&nbsp;
-##Optional Exercise 13: Sum of Digits in a Number 
-Write Python Program to Find the Sum of Digits in a Number .For example if enters a number 1234 the result is 1+2+3+4 = 10
-&nbsp;
-&nbsp;
-##Optional Exercise 14: Print Pattern
-Write a program to display the following pattern using nested loops.
->1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
+Write a program that puts 5 integer values provided by the user into a *standard library array*. Once the values have been inputted display them to the user is a nicely formatted list.
+
+#### Extension Problem (Optional):
+
+Prevent the user from entering invalid data.
 
 &nbsp;
-##Optional Exercise 15: Multiplication Tables
+&nbsp;
 
-Write a program to print Multiplication table in following format from 1 to 10 tables
-Hint: Use nested loops
->Multiplication table of : 1
+## Exercise 5 - Fix the World
+
+I’ve got my letters all jumbled up! Make the below range based for loop output “Hello World” without altering the char array directly.
+
+```C++
+char letters[] {'I', 'f', 'm', 'm', 'p', '!', 'X', 'p', 's', 'm', 'e'};
+for(auto i : letters){
+    cout << i;
+}
+```
+
+&nbsp;
+&nbsp;
+
+## Exercise 6 - Max Values :ballot_box_with_check:
+
+Write a C++ program that will prompt the user to input ten integer values. The program should then determine the smallest and greatest of those values and display these to the console. You should complete this task using basic arrays.
+
+#### Extension Problem (Optional):
+
+* Adapt the solution to make use of Standard Library Arrays and appropriate algorithm functions
+
+&nbsp;
+&nbsp;
+
+## Exercise 7 - 2D Average
+
+Writes a program to find the average value of each column of a 2D array of type double
+
+&nbsp;
+&nbsp;
+
+## Exercise 8 - Address Storage
+
+Use a string multidimensional array to store the names and respective postcodes of 3 or more people you know. The data should be inputted by the user. Next have the program print out the details of each person on a new line, e.g.
+
+  | Name   | Postcode |
+  |--------|----------|
+  | Bob    | A59 1LK  |
+
+  &nbsp;
+  &nbsp;
+
+## Exercise 9 - Times Tables :ballot_box_with_check:
+
+* Write a program that declares and empty 12 x 12 multidimensional array.
+* Next make use of a nested for loop to assign the values of the 12 times table into the multidimensional array.
+* Now use a second nested for loop to output the values in the multidimensional array. You should aim to neatly format the outputted values
+
+Example Output:
+
+```
+1 times table:
+---------------
+
 1 x 1 = 1
 1 x 2 = 2
 1 x 3 = 3
@@ -128,15 +116,41 @@ Hint: Use nested loops
 1 x 8 = 8
 1 x 9 = 9
 1 x 10 = 10
-…
-Multiplication table of : 10
-10 x 1 = 10
-10 x 2 = 20
-10 x 3 = 30
-10 x 4 = 40
-10 x 5 = 50
-10 x 6 = 60
-10 x 7 = 70
-10 x 8 = 80
-10 x 9 = 90
-10 x 10 = 100
+1 x 11 = 11
+1 x 12 = 12
+
+2 times table:
+---------------
+
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+2 x 11 = 22
+2 x 12 = 24
+
+etc
+```
+
+&nbsp;
+&nbsp;
+
+## Exercise 10 - Weather Data
+
+Write a program that takes temperature data for the last 7 days for two cities (e.g. Bath and Barcelona) and stores the data into a 2D array. Once the data is inputted do the following:
+
+* Output the data to the console
+* Display the highest, lowest and average temperature for each city.
+* Display the highest, lowest and average temperature for the cities combined
+
+You can use either a built in array or a standard library array for this task. If using a standard library array remember the syntax for declaring a 2D array is:
+
+```C++
+array<array<int,7>, 2> temperatures;
+```
